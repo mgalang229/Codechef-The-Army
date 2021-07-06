@@ -29,7 +29,7 @@ int main() {
 		// max(5 - 2, 5 - 3) = 3
 		for (int i = 0; i < n; i++) {
 			// compare the distances between the current index and the minimum position
-			// or the current index and the maximum value
+			// or the current index and the maximum position
 			// based on the observation above, we can see that if the earlier indices
 			// from 0 to 2, the largest value that will be stored comes from their difference
 			// with the maximum position, while indices from 3 to 5, the largest valuet that
